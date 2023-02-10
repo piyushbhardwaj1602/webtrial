@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> onclick event attribute </title>
+    <script>
+    document.getElementById("geeks").addEventListener("click", functionClick);
+    function functionClick() {
+        document.getElementById("geeks").innerHTML =
+        "Welcome to GeeksforGeeks!";
+    }
+    </script>
+</head>
+<body>
+    <h2>GeeksforGeeks</h2>
+    <h3>onClick Event Attribute</h3>
+   
+    <!-- onclick event call here -->
+    <button onclick="functionClick()"> Click Here </button>
+    <p id="geeks"></p>
+ 
+</body>
+</html>
